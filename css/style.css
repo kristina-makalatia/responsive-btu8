@@ -1,0 +1,65 @@
+/* header styles */
+.header-wraper {
+    display: flex;
+    justify-content: space-between;
+    background-color:gray;
+    padding: 30px;
+}
+.nav-ul {
+    display: flex;
+}
+.nav-ul li {
+    margin-right: 30px;
+}
+.fa-bars {
+    color: #fff;
+    font-size: 30px;
+}
+.burger-icon {
+    display: none;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: yellow;
+}
+.flex-wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left-block {
+    max-width: 200px;
+    width:100%;
+    height: 300px;
+    background-color: blue;
+}
+.right-block {
+    max-width: 200px;
+    width:100%;
+    height: 300px;
+    background-color:darkgrey;
+}
+.center-block {
+    max-width: 200px;
+    width:100%;
+    height: 300px;
+    background-color: red;
+}
+
+/* images wraper section */
+.images-wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image-block {
+    width: 270px;
+}
+.image-block img {
+    width: 100%;
+}
+
+/* responsive */
+
